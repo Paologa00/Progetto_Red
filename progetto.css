@@ -6,17 +6,45 @@
     display: flex; 
     justify-content: center;
 }
-.navbar1{
+
+.navbar-nav .nav-link {
+    color: rgb(8, 8, 8);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     
+      
+  }
+  .navbar1{
     font-size: 12px;
     display: flex;
     justify-content: center;
 }
+  
 .containernav{
-    width: 300px;
+    font-size: 12px;
     display: flex;
-    justify-content: space-evenly;  
+    width: 400px;
+    justify-content: center;
+    justify-content: space-evenly;
+    
     
 }
+.p-space{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+@media (max-width: 768px) {
+    .containernav {
+    width: 100%;
+    }
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+    }
 /* fine navbar */
 
 .boximmagine1{
@@ -28,7 +56,7 @@
     color: red;
     display: flex;
     justify-content: center;
-   align-items: center;
+    align-items: center;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -41,9 +69,8 @@
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
-    
-   position: absolute;
-   bottom: 250px;
+    position: absolute;
+    bottom: 250px;
     
 }
 .boxlorem2{
