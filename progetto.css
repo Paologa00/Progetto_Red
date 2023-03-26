@@ -148,12 +148,7 @@ h1 {
 @media (max-width: 767px) {
   h1{font-size: 30px;}
 }
-h3{
-  position: absolute;
-  z-index: 3;
-  margin-bottom: 0rem;
-  
-} 
+
 .front-image-wrapper h3 {
   position: absolute;
   bot: 0%;
@@ -193,7 +188,7 @@ h3{
   border: none;
 }
 .coloriconfa{
-  color: darkred;
+  color: rgb(139, 0, 0);
   font-size: 45px;
 }
 @media (max-width: 767px) {
@@ -216,12 +211,29 @@ i{
   font-size: 20px; 
 }
 
-.ourtimeline{
-  display: flex;
-  /* align-items: flex-end; */
-  width: 200px;
-  height: 100px;
-}
+
 .dimensionitesto{
 justify-content: space-around; 
 }
+.testotitolo2{
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+/* h3{
+  position: absolute;
+  z-index: 3;
+  margin-bottom: 0rem;
+  
+}  */
+ .testoadestra{
+  display: flex;
+justify-content: end;
+} 
+.testoadestra2{
+  display: flex;
+ 
+} 
