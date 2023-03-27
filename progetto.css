@@ -93,8 +93,6 @@
 /* fine immagini main */
 
 
-
-
 .bg-image {
   background-image:linear-gradient(0deg, rgba(255, 255, 255, 0.172) 0%, rgba(255,255,255,0.3731343283582089) 50%, rgba(255,255,255,1) 100%), url(./media/switzerland-862870_1920.jpg);
   background-position: center center;
@@ -120,17 +118,9 @@
   width: 100%;
   height: auto;
 }
-.title2{
-    position: absolute;
-    bottom: 3rem;
-    left: 18rem;
-    right: 40rem;
-    margin: 0;
-    padding: 0 15px;
-    font-size: 13px;
-    font-family: 'Nova Square', cursive;
-    font-weight: 600;
-  }
+.virgolette{
+  color: darkred;
+}
   
 .title-wrapper {
   position: absolute;
@@ -148,7 +138,12 @@ h1 {
 @media (max-width: 767px) {
   h1{font-size: 30px;}
 }
-
+h3{
+  position: absolute;
+  z-index: 3;
+  margin-bottom: 0rem;
+  
+} 
 .front-image-wrapper h3 {
   position: absolute;
   bot: 0%;
@@ -160,19 +155,10 @@ h1 {
   position: absolute;
 }
 
-
-
-
-
-
 .boxlorem2{
   margin: 40px;
   font-size: 10px;
 }
-
-
-
-
 
 /* inizio card */
 .boxcard{
@@ -188,7 +174,7 @@ h1 {
   border: none;
 }
 .coloriconfa{
-  color: rgb(139, 0, 0);
+  color: darkred;
   font-size: 45px;
 }
 @media (max-width: 767px) {
@@ -211,29 +197,17 @@ i{
   font-size: 20px; 
 }
 
+.posizionedestra {
+  text-align: right;
+}
 
+
+.ourtimeline{
+  display: flex;
+  /* align-items: flex-end; */
+  width: 200px;
+  height: 100px;
+}
 .dimensionitesto{
 justify-content: space-around; 
 }
-.testotitolo2{
-  width: 400px;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-/* h3{
-  position: absolute;
-  z-index: 3;
-  margin-bottom: 0rem;
-  
-}  */
- .testoadestra{
-  display: flex;
-justify-content: end;
-} 
-.testoadestra2{
-  display: flex;
- 
-} 
