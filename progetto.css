@@ -126,7 +126,42 @@
 .virgolette{
   color: darkred;
 }
+@media only screen and (max-width: 767px){
+  .citazionepadre{
+    font-size: 13px;
+    
+ 
+  }
+  .coloriconfa{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+  .card-text{
+    padding-bottom: 2rem;
+  }
+.lorem-title{
+  font-size: 15px;
+
+}
+.lorem{
+  font-size: 11px;
+}
   
+}
+  
+
+
+
+
+
+
+.citazionepadre{
+margin-left: 13%;
+margin-right: 19%;
+
+  }
 .title-wrapper {
   position: absolute;
   top: 50%;
