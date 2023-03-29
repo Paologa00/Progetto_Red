@@ -148,7 +148,9 @@
 .lorem{
   font-size: 11px;
 }
-  
+.immagineFooter{
+  width: 100%;
+}
 }
   
 
@@ -370,8 +372,31 @@ justify-content: space-around;
 /* inizio footer */
 
 
+.footerc{
+background-color: darkred;
+color: white;
+}
 
-
-
-
-/* fine footer */
+h6{
+  color: white;
+}
+.dimensione {
+  display: block; 
+  width: 100%;
+  height: auto; 
+  object-fit: cover;
+}
+.dimensione2{
+  display: block; 
+  width: 100%;
+  height: auto; 
+  object-fit: cover;
+  background-image: linear-gradient(to bottom, #fcfdff, #f3f3f5, #e9e9ea, #e0e0e0, #d6d6d6);
+}
+.albero{
+  display: block; 
+  width: auto;
+  height: 50%; 
+  object-fit: cover;
+  background-image: linear-gradient(to bottom, #fcfdff, #f3f3f5, #e9e9ea, #e0e0e0, #d6d6d6);
+}
